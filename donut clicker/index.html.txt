@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donut Clicker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>Donut Clicker</h1>
+    <p>Donuts: <span id="donutCount">0</span></p>
+    
+    <button id="clickButton">🍩 Make a Donut!</button>
+    
+    <h2>Upgrades</h2>
+    <p>Auto Donut Machine (Generates 1 donut per second): <span id="autoCount">0</span></p>
+    <button id="buyAuto" disabled>Buy for 100 donuts</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
